@@ -2,8 +2,8 @@ name: Build JAR and Publish Image
 
 on:
   push:
-    tags:
-      - 'v*'
+    # tags:
+    #   - 'v*'
     branches:
       - main
       - master
