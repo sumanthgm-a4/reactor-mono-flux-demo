@@ -31,7 +31,8 @@ dependencies {
 
 	// Base dependencies for every service
 
-	implementation libs.spring.web
+	// implementation libs.spring.web
+	implementation libs.spring.webflux
 	implementation libs.spring.validation
 
 	compileOnly libs.lombok
